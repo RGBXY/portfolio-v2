@@ -18,7 +18,8 @@
 }
 
 @theme inline {
-  --padding-180: 116px 0 180px 0;
+  --padding-180-b: 116px 0 180px 0;
+  --padding-180-y: 180px 0 180px 0;
   --font-mori: "mori", sans-serif;
   --color-accent-green: #b4ea27;
   --color-primary-black: #0f0f11;

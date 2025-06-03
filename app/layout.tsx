@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <ReactLenis root>
-        <body className={`font-mori antialiased`}>
+        <body className={`font-mori antialiased bg-primary-gray`}>
           <Navbar />
           {children}
         </body>

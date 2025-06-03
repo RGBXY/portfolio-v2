@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const ProjectSection = () => {
-  return (
-    <div className='h-screen w-full bg-white relative' >ProjectSection</div>
-  )
-}
+  return <div className="w-full  p-180-y px-10">ProjectSection</div>;
+};
 
-export default ProjectSection
+export default ProjectSection;
