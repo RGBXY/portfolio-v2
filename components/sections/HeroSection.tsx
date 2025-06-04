@@ -31,15 +31,18 @@ const HeroSection = () => {
     <section ref={heroRef} className="bg-black h-[100svh] w-full flex flex-col text-white">
       <div className="h-full w-full">
         <FlickeringGrid className="fixed inset-0 z-0 w-full h-full [mask-image:radial-gradient(100%_circle_at_center,white,transparent)]" squareSize={2} gridGap={15} color="#eee" maxOpacity={0.5} flickerChance={0.1} />
-        <div className={`${isHeroVisible ? "flex" : "hidden"} fixed h-[86vh] inset-0 w-full z-0 md:text-[7vw] text-[8vw] leading-[108%] left-0 flex-col justify-end p-5 lg:p-10`}>
+        <div className={`${isHeroVisible ? "flex" : "hidden"} fixed lg:h-[86vh] h-[75vh] inset-0 w-full z-0 md:text-[7vw] text-[8vw] leading-[108%] left-0 flex-col justify-end p-5 lg:p-10`}>
+          <div className="relative w-full h-20 ">
+            <SpinningText className="absolute md:text-xl text-sm left-12 bottom-16 lg:hidden md:hidden block">something • great • waiting •</SpinningText>
+          </div>
           <h1 className="text-accent-green">Derren Amadeo</h1>
           <h1 className="">Fullstack Developer</h1>
         </div>
-        <div className="h-[86vh] flex relative items-end justify-end overflow-hidden ">
+        <div className="lg:h-[86vh] h-[75vh] flex relative items-end justify-end overflow-hidden ">
           <SpinningText className="absolute bottom-25 right-25 hidden md:block">something • great • waiting •</SpinningText>
         </div>
       </div>
-      <div className="relative flex md:flex-row flex-col h-[17vh] text-xs">
+      <div className="relative flex md:flex-row flex-col lg:h-[17vh] h-[25vh] text-xs">
         <Link className="w-full h-full flex items-center px-5 lg:px-10 group hover:cursor-pointer bg-accent-blue" href="/works">
           <div className="relative">
             <span>EXPLORE WORKS</span>
