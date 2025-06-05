@@ -8,11 +8,30 @@ export const linksNavItems = [
     link: "/expertise",
   },
   {
-    title: "ABOUT",
-    link: "/about",
+    title: "INSIGHTS",
+    link: "/insights",
   },
   {
     title: "LAB",
     link: "/lab",
+  },
+];
+
+export const contactItems = [
+  {
+    title: "GITHUB",
+    link: "/",
+  },
+  {
+    title: "LINKEDIN",
+    link: "/",
+  },
+  {
+    title: "INSTAGRAM",
+    link: "/",
+  },
+  {
+    title: "FACEBOOK",
+    link: "/",
   },
 ];
