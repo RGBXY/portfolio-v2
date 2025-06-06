@@ -16,7 +16,7 @@ const SideContent = ({ text, cta, link }: SideContentProps) => {
           <div className="relative group border-b border-primary-black w-fit lg:text-sm text-xs">
             <span className="font-bold">{cta}</span>
             <div className="absolute bottom-0 group-hover:bottom-0 w-0 group-hover:w-full h-[1px] bg-primary-black transition-all duration-500"></div>
-          </div>
+          </div>  
         </Link>
       )}
     </div>

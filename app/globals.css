@@ -24,9 +24,11 @@
 @theme inline {
   --padding-180-b: 116px 0 180px 0;
   --padding-180-y: 180px 0 180px 0;
+  --text-40: 40px;
   --font-mori: "mori", sans-serif;
   --color-accent-green: #b4ea27;
-  --color-accent-brown: #939393;
+  --color-primary-slate: #d4d9d7;
+  --color-accent-slate: #939393;
   --color-primary-black: #0f0f11;
   --color-secondary-gray: #eee;
   --color-primary-gray: #f9faf7;

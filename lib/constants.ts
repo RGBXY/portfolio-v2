@@ -40,11 +40,11 @@ export const expertiseItems = [
 export const experienceItems = [
   {
     title: "Front-End Developer",
-    image: "/img/logo/can-logo.ico",
-    link: "https://can.co.id",
-    company: "CAN Creative",
-    duration: "Jun 2024 - Dec 2024",
-    description: "This is where I first experienced the real world of work. I learned a lot about front-end web development here, especially JavaScript frameworks such as Vue JS and Nuxt JS.",
+    image: "/img/logo/freelance-logo.png",
+    link: "https://derrenamadeo.vercel.app",
+    company: "Freelance",
+    duration: "June 2024 - Present",
+    description: "After pursuing in-depth education in web programming, I am now trying to stand on my own and take independent steps, accepting and developing ideas into reality.",
   },
   {
     title: "Front-End Developer",
@@ -52,14 +52,14 @@ export const experienceItems = [
     link: "https://can.co.id",
     company: "CAN Creative",
     duration: "Jun 2024 - Dec 2024",
-    description: "This is where I first experienced the real world of work. I learned a lot about front-end web development here, especially JavaScript frameworks such as Vue JS and Nuxt JS.",
+    description: "At this company i interned, and gained so much knowledge about front end web development while completing many tasks, such as creating landing pages, company profiles, and dashboard features.",
   },
+];
+
+export const articleCardsItems = [
   {
-    title: "Front-End Developer",
-    image: "/img/logo/can-logo.ico",
-    link: "https://can.co.id",
-    company: "CAN Creative",
-    duration: "Jun 2024 - Dec 2024",
-    description: "This is where I first experienced the real world of work. I learned a lot about front-end web development here, especially JavaScript frameworks such as Vue JS and Nuxt JS.",
+    title: "Laravel vs NestJS",
+    sub_title: "Laravel is powerfull dan NestJS is Jkjk",
+    image: "/img/article-img/article-1.png",
   },
 ];

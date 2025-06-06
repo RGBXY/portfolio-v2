@@ -3,6 +3,7 @@ import { Plus } from "lucide-react";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { expertiseItems } from "@/lib/constants";
+import HeaderSection from "../ui/HeaderSection";
 
 export const ExpertiseSection = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
@@ -17,7 +18,7 @@ export const ExpertiseSection = () => {
 
       <div className="lg:w-[70%] flex justify-end lg:pt-0 pt-10">
         <div className="w-full relative lg:pt-16 lg:space-y-40 space-y-10">
-          <h1 className=" md:text-4xl text-xl md:w-[70%] lg:ps-10 lg:leading-14">EXPERTISE — From initial exploration through strategy, branding, and on to the product`s design and development.</h1>
+          <HeaderSection text="EXPERTISE — From initial exploration through strategy, branding, and on to the product`s design and development." />
 
           <div className="space-y-[24px] md:space-y-[50px]">
             {expertiseItems.map((item, index) => (
@@ -44,8 +45,8 @@ export const ExpertiseSection = () => {
                           <p className="md:w-[500px] text-xs md:text-sm">{item.description}</p>
                           <div className="flex gap-1 flex-wrap">
                             {item.tags.map((tag, tagIndex) => (
-                              <div key={tagIndex} className="border border-accent-brown rounded-full px-3">
-                                <span className="text-xs text-accent-brown">{tag}</span>
+                              <div key={tagIndex} className="border border-accent-slate rounded-full px-3">
+                                <span className="text-xs text-accent-slate">{tag}</span>
                               </div>
                             ))}
                           </div>

@@ -49,7 +49,7 @@ const ProjectSection = () => {
                     <h1 className="md:text-6xl text-2xl">{item.title}</h1>
                     <p className="md:text-sm text-xs">{item.sub_title}</p>
                   </div>
-                  <div className="group-hover:-rotate-45 z-10 lg:h-7 lg:w-7 w-5 h-5 transition-all duration-500">
+                  <div className="group-hover:-rotate-45 z-10 lg:h-7 h-5 transition-all duration-500">
                     <Image src="/icon/arrowRight.svg" alt="arrowRight" className="object-cover w-full h-full" width={40} height={40} />
                   </div>
                   <div className="h-[1px]  group-hover:w-full w-0 transition-all duration-700 absolute bottom-0 bg-primary-black"></div>
@@ -63,11 +63,13 @@ const ProjectSection = () => {
                       height: height,
                     }}
                     initial={{ opacity: 0, scale: 0.9 }}
-                    animate={{
-                      scale: hoveredId === item.id ? 1 : 0.9,
-                      opacity: hoveredId === item.id ? 1 : 0,
-                    }}
-                    className={`hidden z-0 absolute overflow-hidden top-0 left-0 bg-black rounded-lg pointer-events-none md:flex items-center justify-center`}
+                    animate={
+                      {
+                        // scale: hoveredId === item.id ? 1 : 0.9,
+                        // opacity: hoveredId === item.id ? 1 : 0,
+                      }
+                    }
+                    className={`${hoveredId === item.id ? "block" : "hidden"}  z-0 absolute overflow-hidden top-0 left-0 bg-black rounded-lg pointer-events-none md:flex items-center justify-center`}
                   >
                     <Image className="w-full h-full" src={item.image} alt="hai" height={300} width={300} />
                   </motion.div>

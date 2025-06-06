@@ -30,7 +30,7 @@ const HeroSection = () => {
   return (
     <section ref={heroRef} className="bg-black h-[100svh] w-full flex flex-col text-white">
       <div className="h-full w-full">
-        <FlickeringGrid className="fixed inset-0 z-0 w-full h-full [mask-image:radial-gradient(100%_circle_at_center,white,transparent)]" squareSize={2} gridGap={15} color="#eee" maxOpacity={0.5} flickerChance={0.1} />
+        {/* <FlickeringGrid className="fixed inset-0 z-0 w-full h-full [mask-image:radial-gradient(100%_circle_at_center,white,transparent)]" squareSize={2} gridGap={15} color="#eee" maxOpacity={0.5} flickerChance={0.1} /> */}
         <div className={`${isHeroVisible ? "flex" : "hidden"} fixed lg:h-[86vh] h-[75vh] inset-0 w-full z-0 md:text-[7vw] text-[8vw] leading-[108%] left-0 flex-col justify-end p-5 lg:p-10`}>
           <div className="relative w-full h-20 ">
             <SpinningText className="absolute md:text-xl text-sm left-12 bottom-16 lg:hidden md:hidden block">something • great • waiting •</SpinningText>
