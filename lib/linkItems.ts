@@ -1,11 +1,7 @@
 export const linksNavItems = [
   {
     title: "WORKS",
-    link: "/works",
-  },
-  {
-    title: "EXPERTISE",
-    link: "/expertise",
+    link: "/work",
   },
   {
     title: "INSIGHTS",
@@ -33,5 +29,20 @@ export const contactItems = [
   {
     title: "FACEBOOK",
     link: "/",
+  },
+];
+
+export const linkMoreItems = [
+  {
+    title: "PERSONAL",
+    link: "/personal",
+  },
+  {
+    title: "MATERIAL",
+    link: "/material",
+  },
+  {
+    title: "CV",
+    link: "/personal",
   },
 ];

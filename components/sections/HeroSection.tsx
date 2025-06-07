@@ -43,7 +43,7 @@ const HeroSection = () => {
         </div>
       </div>
       <div className="relative flex md:flex-row flex-col lg:h-[17vh] h-[25vh] text-xs">
-        <Link className="w-full h-full flex items-center px-5 lg:px-10 group hover:cursor-pointer bg-accent-blue" href="/works">
+        <Link className="w-full h-full flex items-center px-5 lg:px-10 group hover:cursor-pointer bg-accent-blue" href="/work">
           <div className="relative">
             <span>EXPLORE WORKS</span>
             <div className="absolute bottom-0.5 w-0 transition-all duration-400 group-hover:w-full h-[0.5px] bg-secondary-gray"></div>
