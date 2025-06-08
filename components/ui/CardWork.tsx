@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 type cardProjectItems = {
+  id: number;
   title: string;
   sub_title: string;
   image: string;
@@ -16,9 +17,9 @@ type cardWorkProp = {
 const CardWork = ({ dataProject, style }: cardWorkProp) => {
   return (
     <Link href={dataProject.link}>
-      <div style={style} className="h-screen group lg:px-10 px-5">
-        <div className="w-full h-full flex gap-10 pt-10 pb-14">
-          <p className="text-xs">.01</p>
+      <div style={style} className="h-screen  flex items-center group lg:px-10 px-5">
+        <div className="w-full md:h-full flex gap-10 pt-10 pb-14">
+          <p className="text-xs">.{String(dataProject.id).padStart(2, "0")}</p>
           <div className="w-full space-y-4">
             <div className="flex justify-between items-center w-full">
               <div>

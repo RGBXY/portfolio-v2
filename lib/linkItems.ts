@@ -16,15 +16,15 @@ export const linksNavItems = [
 export const contactItems = [
   {
     title: "GITHUB",
-    link: "/",
+    link: "https://github.com/RGBXY",
   },
   {
     title: "LINKEDIN",
-    link: "/",
+    link: "https://www.linkedin.com/in/derren-amadeo-hermawan-017306284/",
   },
   {
     title: "INSTAGRAM",
-    link: "/",
+    link: "https://www.instagram.com/derrenmadeo/",
   },
   {
     title: "FACEBOOK",

@@ -7,7 +7,7 @@ type headingProps = {
 
 const PageHeading = ({ title, sub_title }: headingProps) => {
   return (
-    <div className="h-[60vh] p-10 text-primary-gray flex lg:flex-row flex-col lg:items-end lg:justify-between justify-end gap-10 lg:gap-0 bg-primary-black">
+    <div className="h-[60vh] lg:p-10 p-5 text-primary-gray flex lg:flex-row flex-col lg:items-end lg:justify-between justify-end gap-10 lg:gap-0 bg-primary-black">
       <div className="">
         <p>{title}</p>
       </div>

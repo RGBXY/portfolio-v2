@@ -69,7 +69,7 @@ const HorizontalScroll = () => {
             width: `${widthWrapOut}vw`,
             gap: `${gap}vw`,
           }}
-          className="h-screen flex flex-row  relative py-10"
+          className="h-screen flex flex-row relative py-10"
           ref={sectionRef}
         >
           {projectItems.map((item, index) => (

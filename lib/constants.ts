@@ -63,3 +63,26 @@ export const articleCardsItems = [
     image: "/img/article-img/article-1.png",
   },
 ];
+
+export const articleFilterLink = [
+  {
+    id: 1,
+    title: "ALL ARTICLE",
+  },
+  {
+    id: 2,
+    title: "PERSONAL",
+  },
+  {
+    id: 3,
+    title: "BOOKS",
+  },
+  {
+    id: 4,
+    title: "MOVIE",
+  },
+  {
+    id: 5,
+    title: "GAME",
+  },
+];
