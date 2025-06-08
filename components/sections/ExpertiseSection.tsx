@@ -1,3 +1,5 @@
+"use client"
+
 import SideContent from "../ui/SideContent";
 import { Plus } from "lucide-react";
 import { useState } from "react";

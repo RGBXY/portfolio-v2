@@ -6,7 +6,7 @@ import { contactItems, linkMoreItems, linksNavItems } from "@/lib/linkItems";
 const Footer = () => {
   return (
     <div className="relative pt-10 lg:pt-0 bg-primary-black text-gray-300 w-full ">
-      <div className="flex lg:flex-row flex-col px-10 pb-10 ">
+      <div className="flex lg:flex-row flex-col px-5 lg:px-10 pb-10 ">
         <SideContent theme="light" text="DROP ME A LINE, AND WE'LL GET IN TOUCH!" cta="SCHEDULE A CALL" link="/contact" />
         <div className="lg:w-[70%] flex lg:justify-end lg:pt-0 pt-10 ">
           <div className="w-fit relative lg:pt-16 lg:space-y-30 space-y-10">

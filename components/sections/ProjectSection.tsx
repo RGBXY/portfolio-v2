@@ -1,3 +1,5 @@
+"use client";
+
 import { projectItems } from "@/lib/constants";
 import { useMotionValue, motion } from "framer-motion";
 import Image from "next/image";
