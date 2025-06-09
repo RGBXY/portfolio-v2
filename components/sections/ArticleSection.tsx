@@ -8,7 +8,7 @@ import ArticleMainCard from "../ui/ArticleMainCard";
 const ArticleSection = () => {
   return (
     <div className="section-container min-h-screen relative bg-primary-slate">
-      <SideContent text="Not just code, sometimes i read and share my insight." cta="VIEW ALL MY INSIGHT" link="/article" />
+      <SideContent text="Not just code, sometimes i read and share my insight." cta="VIEW ALL MY INSIGHT" link="/insights" />
       <div className="lg:w-[70%] flex justify-end lg:pt-0 pt-10">
         <div className="w-full relative lg:pt-16 lg:space-y-30 space-y-10">
           <HeaderSection text="- Valuable insights, exciting stories and other things worth sharing with the world." />

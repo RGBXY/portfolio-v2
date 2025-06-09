@@ -28,7 +28,7 @@ export const contactItems = [
   },
   {
     title: "FACEBOOK",
-    link: "/",
+    link: "https://www.facebook.com/derren.amadeo/",
   },
 ];
 
@@ -43,6 +43,6 @@ export const linkMoreItems = [
   },
   {
     title: "CV",
-    link: "/personal",
+    link: "https://app.zeke.so/user/derren",
   },
 ];

@@ -61,6 +61,13 @@ export const articleCardsItems = [
     title: "Laravel vs NestJS",
     sub_title: "Laravel is powerfull dan NestJS is Jkjk",
     image: "/img/article-img/article-1.png",
+    category: ["Personal", "Code"],
+  },
+  {
+    title: "Laravel vs NestJS",
+    sub_title: "Laravel is powerfull dan NestJS is Jkjk",
+    image: "/img/article-img/article-1.png",
+    category: ["Movie", "Game"],
   },
 ];
 
@@ -68,21 +75,26 @@ export const articleFilterLink = [
   {
     id: 1,
     title: "ALL ARTICLE",
+    slug: "All",
   },
   {
     id: 2,
     title: "PERSONAL",
+    slug: "Personal",
   },
   {
     id: 3,
-    title: "BOOKS",
+    title: "CODE",
+    slug: "Code",
   },
   {
     id: 4,
     title: "MOVIE",
+    slug: "Movie",
   },
   {
     id: 5,
     title: "GAME",
+    slug: "Game",
   },
 ];

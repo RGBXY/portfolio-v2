@@ -5,7 +5,7 @@ const ArticleMainCard = () => {
   return (
     <div className="lg:ps-10 group">
       <p className="lg:text-sm text-xs lg:mb-4 mb-2">FEATURED INSIGHT</p>
-      <div className="border w-full group-hover:scale-99 transition-all md:h-[500px] h-[250px] rounded-2xl overflow-hidden">
+      <div className="border w-full group-hover:scale-99 transition-all aspect-3/2 rounded-2xl overflow-hidden">
         <Image src="/img/article-img/article-1.png" className="w-full h-full object-cover" alt="how to work with me" width={500} height={500} />
       </div>
       <div className="mt-4 space-y-1.5 relative border-b border-gray-500 lg:pb-8 pb-6">

@@ -8,18 +8,18 @@ const Footer = () => {
   return (
     <div className="relative pt-10 lg:pt-0 bg-primary-black text-gray-300 w-full ">
       <div className="flex lg:flex-row flex-col px-5 lg:px-10 pb-10 ">
-        <SideContent theme="light" text="DROP ME A LINE, AND WE'LL GET IN TOUCH!" cta="SCHEDULE A CALL" link="https://wa.me/+6285210711414" />
+        <SideContent theme="light" text="DROP ME A LINE, AND WE'LL GET IN TOUCH!" cta="SCHEDULE A CALL" link="https://t.me/DerrenAmadeo" />
         <div className="lg:w-[70%] flex lg:justify-end lg:pt-0 pt-10 ">
           <div className="w-fit relative lg:pt-16 lg:space-y-30 space-y-10">
             <div className="flex lg:justify-end gap-12 text-xs md:text-sm">
               {contactItems.map((item, index) => (
-                <LinkUi key={index} link={item.link} title={item.title} />
+                <LinkUi target_blank={true} key={index} link={item.link} title={item.title} />
               ))}
             </div>
 
             <div className="space-y-16">
               <div className="lg:text-6xl md:text-5xl text-2xl border-b w-fit border-b-secondary-gray flex">
-                <Link href="mailto:derrenamadeo@gmail.com">
+                <Link target="_blank" href="mailto:derrenamadeo@gmail.com">
                   <span>DERRENAMADEO@GMAIL.COM</span>
                 </Link>
               </div>
@@ -27,7 +27,7 @@ const Footer = () => {
               <div className="flex flex-col md:flex-row lg:justify-end items-start lg:text-end text-start lg:gap-20 md:gap-14 gap-10 flex-wrap">
                 <div className="flex flex-col lg:items-end text-xs gap-2">
                   {/* <h1 className="font-semibold text-2xl">SAY HI?</h1> */}
-                  <LinkUi title="+62 8521 0711 414" link="https://wa.me/+6285210711414" />
+                  <LinkUi target_blank={true} title="@DerrenAmadeo" link="https://t.me/DerrenAmadeo" />
                   <p>Based in the island of Java, Indonesia</p>
                 </div>
 

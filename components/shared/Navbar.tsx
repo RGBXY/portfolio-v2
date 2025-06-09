@@ -29,7 +29,7 @@ const Navbar = () => {
         <div className="mt-8 flex flex-col items-end text-xl gap-2 lg:hidden">
           {contactItems.map((item, index) => (
             <div key={index} onClick={() => setIsOpen(false)}>
-              <LinkUi key={index} title={item.title} link={item.link} />
+              <LinkUi target_blank={true} key={index} title={item.title} link={item.link} />
             </div>
           ))}
         </div>

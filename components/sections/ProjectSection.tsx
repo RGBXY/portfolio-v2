@@ -11,7 +11,7 @@ const ProjectSection = () => {
   const sideContentPropsData = {
     text: "SIMPLICITY AND CLARITY ARE OUR GUIDING PRINCIPLES, FROM START TO FINISH – FROM DESIGN TO PRODUCT DEVELOPMENT.",
     cta: "VIEW ALL MY WORKS",
-    link: "/projects",
+    link: "/work",
   };
 
   const [hoveredId, setHoveredId] = useState<number | null>(null);

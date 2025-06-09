@@ -50,9 +50,9 @@ const HeroSection = () => {
           </div>
         </Link>
         <div className="w-full h-full flex items-center bg-accent-gray text-primary-black">
-          <Link className="h-full w-[17vh] group flex items-center justify-center bg-accent-green" href="/resume">
+          <Link target="_blank" className="h-full w-[17vh] group flex items-center justify-center bg-accent-green" href="https://app.zeke.so/user/derren">
             <div className="relative">
-              <span>RESUME</span>
+              <span>CV</span>
               <div className="absolute bottom-0.5 w-0 transition-all duration-400 group-hover:w-full h-[0.5px] bg-primary-black"></div>
             </div>
           </Link>
