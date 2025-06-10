@@ -1,3 +1,7 @@
+import dynamic from "next/dynamic";
+
+const Album = dynamic(() => import("@/components/lab/Album"));
+
 export const projectItems = [
   { id: 1, title: "DSAID", sub_title: "THREAD CLONE", image: "/img/projects/project_1.png", link: "https://github.com/RGBXY/Dsaid" },
   { id: 2, title: "GORAKUMO", sub_title: "MOVIE LIST WITH TMDB API", image: "/img/projects/project_2.png", link: "https://github.com/RGBXY/gorakumo" },
@@ -58,16 +62,16 @@ export const experienceItems = [
 
 export const articleCardsItems = [
   {
-    title: "Laravel vs NestJS",
-    sub_title: "Laravel is powerfull dan NestJS is Jkjk",
-    image: "/img/article-img/article-1.png",
-    category: ["Personal", "Code"],
+    title: "What Life Realy is?",
+    sub_title: "Im always confusing what life realy is.",
+    image: "/img/article-img/article-2.png",
+    category: ["Personal", "Life"],
   },
   {
-    title: "Laravel vs NestJS",
-    sub_title: "Laravel is powerfull dan NestJS is Jkjk",
-    image: "/img/article-img/article-1.png",
-    category: ["Movie", "Game"],
+    title: "Carpe Diem, Seize the Days Boys",
+    sub_title: "The most powerfull line that made my life change forever.",
+    image: "/img/article-img/article-3.png",
+    category: ["Movie", "Life"],
   },
 ];
 
@@ -84,17 +88,20 @@ export const articleFilterLink = [
   },
   {
     id: 3,
-    title: "CODE",
-    slug: "Code",
-  },
-  {
-    id: 4,
     title: "MOVIE",
     slug: "Movie",
   },
   {
-    id: 5,
-    title: "GAME",
-    slug: "Game",
+    id: 4,
+    title: "LIFE",
+    slug: "Life",
+  },
+];
+
+export const labComponentItems = [
+  {
+    name: "Album",
+    slug: "album",
+    child: Album,
   },
 ];

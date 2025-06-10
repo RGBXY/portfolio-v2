@@ -25,7 +25,7 @@ const InsightSection = () => {
   return (
     <div>
       <div className="pb-30 section-container ">
-        <SideContent text="UNVEIL YOUR DREAM, AND LET DESIGN WEAVE ITS MAGIC INTO REALITY’S SEAM." />
+        <SideContent text="WARNING if you are here your brain can explode." />
         <div className="lg:w-[70%]  flex justify-end lg:pt-0 pt-10">
           <div className="w-full relative lg:pt-16 lg:space-y-40 space-y-10">
             <ArticleMainCard />

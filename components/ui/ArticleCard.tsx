@@ -21,14 +21,14 @@ const ArticleCard = ({ data }: ArticleCardProps) => {
         <div className="flex-1 lg:space-y-3 space-y-2 ">
           <div className="flex items-center gap-1">
             {data.category.map((item, index) => (
-              <p key={index} className="lg:text-sm text-xs">
+              <p key={index} className="lg:text-base text-xs">
                 {item}
                 {index < data.category.length - 1 && ","}
               </p>
             ))}
           </div>
           <h1 className="lg:text-40 md:text-3xl text-2xl lg:leading-11 md:leading-9 leading-7">{data.title}</h1>
-          <p className="lg:text-sm text-xs">{data.sub_title}</p>
+          <p className="lg:text-base text-xs">{data.sub_title}</p>
         </div>
       </div>
       <div className="group-hover:-rotate-45 z-10 h-5 transition-all duration-500">

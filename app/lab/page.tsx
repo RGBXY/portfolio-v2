@@ -5,7 +5,7 @@ import React from "react";
 const page = () => {
   return (
     <div className="min-h-screen pb-[180px]">
-      <PageHeading title="FRESH FROM THE OVEN" sub_title="I`ve gathered an exceptional selection of insightful content." />
+      <PageHeading title="FRESH FROM THE OVEN" sub_title="I love to explore my front-end skills, i made a lab so i dont burn my house" />
 
       <LabSection />
     </div>
